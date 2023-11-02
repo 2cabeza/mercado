@@ -28,11 +28,11 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'mmglfamx3n927*93$ks#r)h%*a(@))vb7*=2q
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = os.environ.get("DEBUG", "False").lower() == "True"
+DEBUG = os.environ.get("DEBUG", "False").lower() == "true"
 
 
-ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(" ")
-#ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "").split(",")
+#ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(" ")
+ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "").split(",")
 
 
 # Application definition
