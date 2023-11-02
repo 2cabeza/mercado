@@ -94,6 +94,19 @@ DATABASES = {
 #DATABASES["default"] = dj_database_url.parse(database_url)
 
 
+# Database
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'fbdb_zu0l',
+        'HOST': 'dpg-ciah2898g3nden4ffdc0-a.oregon-postgres.render.com',
+        'PORT': '5432',
+        'USER': 'fbdb_user',
+        'PASSWORD': 'TKcQJwSOqN7FzBDzurl30vaRX5fkr9ku',
+    }
+}
+
+
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': (
